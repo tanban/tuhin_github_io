@@ -1,0 +1,125 @@
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	
+}
+.flex_container{
+	display:-webkit-flex;
+	display:block;
+	width:1000px;
+	
+	margin:auto;
+	
+}
+ul#nav{
+	list-style-type:none;
+	overflow:hidden;
+	width:1000px;
+	background-image:url("bg2.png");
+
+	margin-top:40px;
+	
+	
+	
+}
+li:hover:not(#link4){
+	
+	background-color:yellow;
+}
+#link1{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:133px;
+}
+
+#link2{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:134px;
+}
+#link3{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:133px;
+}
+
+#link4{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:blue;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:0;
+}
+
+ul#nav li a{
+	text-decoration:none;
+	color:white;
+	font:30px ;
+	margin-top:20px;
+
+	display:block;
+	font:20px bold;	
+}
+body{
+	background-image:url("contact.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	font:16px Helvetica,Arial,Sans-Serif;
+	color: #636363;
+	line-height:24px;
+}
+#content2{
+	background-image:url("image6.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin-top:40px;
+	margin-bottom:10px;
+	padding:70px 50px 60px 50px;
+	border-radius:0 0 10px 10px;
+	color:black;
+}
+#facebook
+{
+	margin-top:10px;
+	margin-bottom:50px;
+	padding:70px 50px 60px 50px;
+	border-radius:0 0 10px 10px;
+	color:black;
+	
+}
+#tan
+{
+	margin-top: 13px;
+}
